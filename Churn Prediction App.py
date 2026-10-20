@@ -109,7 +109,7 @@ def main():
 
     col4, col5, col6 = st.columns(3)
     with col4:
-        dropped_call_rate = st.number_input("Dropped Call Rate", min_value=0.0, max_value=1.0, value=0.05, step=0.01)
+        dropped_call_rate = st.number_input("Dropped Call Rate", min_value=0.0, max_value=20.0, value=0.05, step=0.01)
         num_customer_care_calls = st.number_input("Customer Care Calls", min_value=0, value=2, step=1)
 
     with col5:
